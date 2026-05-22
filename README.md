@@ -1,6 +1,6 @@
 #  HBS Core
 
-&zwnj;**鸿蒙直播开源内核 | HarmonyOS Live Streaming Kernel**&zwnj;
+&zwnj;**鸿蒙直播开源内核 |  Open Harmony Broadcaster Software core**&zwnj;
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg){target="_blank"}](https://www.apache.org/licenses/LICENSE-2.0)
 [![HarmonyOS](https://img.shields.io/badge/HarmonyOS-5.0%2B-orange){target="_blank"}](https://developer.harmonyos.com)
