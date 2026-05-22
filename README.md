@@ -26,6 +26,50 @@ HBS Live Core 是一个专为&zwnj;**鸿蒙（HarmonyOS / OpenHarmony）**&zwnj;
 
 ## 🏗️ 架构概览
 
+┌─────────────────────────────────────┐
+│ 上层应用（闭源/开源） │
+├─────────────────────────────────────┤
+│ HBS Live Core (Apache 2.0) │
+├──────────┬──────────┬───────────────┤
+│ 直播引擎 │ 音频模块 │ 视频模块 │
+├──────────┼──────────┼───────────────┤
+│ 硬件抽象层 (HAL) │
+├─────────────────────────────────────┤
+│ HarmonyOS / OpenHarmony 系统层 │
+└─────────────────────────────────────┘
+
+
+---
+
+## 📦 模块说明
+
+| 模块 | 功能 | 接口文件 |
+|------|------|----------|
+| `live-engine` | 推流初始化与生命周期管理 | `include/live_core.h` |
+| `audio-hal` | 音频采集设备抽象接口 | `include/audio_device.h` |
+| `video-hal` | 视频采集设备抽象接口 | `include/video_device.h` |
+| `stream-output` | 编码流输出管道 | `include/stream_output.h` |
+| `device-manager` | 硬件设备统一管理 | `include/device_manager.h` |
+| `media-codec` | 音视频编码接口封装 | `include/media_codec.h` |
+
+---
+
+## 🚀 快速开始
+
+### 环境要求
+
+- DevEco Studio 5.0 或更高版本
+- HarmonyOS SDK API Level 12+
+- 目标设备：HarmonyOS / OpenHarmony 设备
+
+### 集成方式
+
+```bash
+# 拉取代码
+git clone https://github.com/your-org/hbs-live-core.git
+
+# 将内核模块添加到你的项目
+ohpm install hbs-live-core
 
 
 ```bash
