@@ -115,6 +115,6 @@ API 接口文档（）
 
 ---
 ## 其他仓库地址：
-     gitee：
+     gitee：https://gitee.com/chomoa/open-harmony-broadcaster-software-core
      GitHub：
-     gitcode：
+     gitcode：https://gitcode.com/youcanyoudone/Open-Harmony-Broadcaster-Software-Core
