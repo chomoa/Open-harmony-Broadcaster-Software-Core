@@ -58,8 +58,8 @@ HBS Live Core 是一个专为&zwnj;**鸿蒙（HarmonyOS / OpenHarmony）**&zwnj;
 
 ### 环境要求
 
-- DevEco Studio 5.0 或更高版本
-- HarmonyOS SDK API Level 12+
+- DevEco Studio 6.0 或更高版本
+- HarmonyOS  API 23+//openharmony API 23+
 - 目标设备：HarmonyOS / OpenHarmony 设备
 
 ### 集成方式
